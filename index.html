@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="google-translate-customization" content="9f841e7780177523-3214ceb76f765f38-gc38c6fe6f9d06436-c">
+    </meta>
+
+    <title>LearnDepth : Online Courses</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+   
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
+        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+            <p class="m-0 fw-bold" style="font-size: 25px;"><img src="img/bg-removed-black(LearnDepth).png" alt="" height="50px"><span style="color: #2d6a4f;"></span></p>
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link active">Home</a>
+                <a href="about.html" class="nav-item nav-link">About</a>
+                <a href="courses.html" class="nav-item nav-link">Courses</a>
+                <a href="contact.html" class="nav-item nav-link">Contact</a>
+
+                <button class="theme-toggle" id="themeToggle" onclick="toggleTheme()">
+                    <i class="fas fa-moon" id="themeIcon"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0 mb-4">
+        <div class="owl-carousel header-carousel position-relative">
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/instructor-1.jpg" alt="">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
+                    style="background: rgba(24, 29, 56, .7);">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-sm-10 col-lg-8">
+                                <h5 class=" text-uppercase mb-3 animated slideInDown" style="color: #9b59b6;">Our Virtual internship program </h5>
+                                <h1 class="display-3 text-white animated slideInDown">
+Build job-ready skills through real-world internships</h1>
+                                <p class=" text-white mb-4 pb-2">Work on practical projects, gain hands-on experience, and develop industry-relevant skills with structured virtual internship programs designed for students</p>
+                                <a href="about.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/instructor-2.jpg" alt="">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
+                    style="background: rgba(24, 29, 56, .7);">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-sm-10 col-lg-8">
+                                <h5 class=" text-uppercase mb-3 animated slideInDown" style="color: #9b59b6;">Welcome to
+                                    LearnDepth</h5>
+                                <h1 class="display-3 text-white animated slideInDown">Build Real Skills. Not Just Certificates.
+                                </h1>
+                                <p class=" text-white mb-4 pb-2">Learn industry-relevant skills through guided programs, live projects, and mentorship designed to make you job-ready, not just course-complete..</p>
+                                <a href="about.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+
+    <!-- Service Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-2 text-center">
+                <div class="col-12 wow fadeInUp" data-wow-delay="0.3s">
+                    <h1 style="color: #9b59b6;">Achieve real career growth with LearnDepth internships</h1>
+                    <p class="mb-5">Get hands-on experience through structured virtual internships designed to help you build practical skills, complete real-world projects, and strengthen your resume.</p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item text-center pt-3 shadow">
+                        <div class="p-4">
+                            <i class="fas fa-laptop-code fa-3x mb-4" style="color: #9b59b6;"></i>
+                            <h5 class="mb-3">Hands-on Projects</h5>
+                            <p>Work on real-world tasks and projects to gain practical experience beyond theory.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item text-center pt-3 shadow">
+                        <div class="p-4">
+                            <i class="fas fa-layer-group fa-3x mb-4" style="color: #9b59b6;"></i>
+                            <h5 class="mb-3">Structured Learning</h5>
+                            <p>Follow a step-by-step internship program designed to help you learn and apply skills effectively.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item text-center pt-3 shadow">
+                        <div class="p-4">
+                            <i class="fas fa-user-tie fa-3x mb-4" style="color: #9b59b6;"></i>
+                            <h5 class="mb-3">Mentor Support</h5>
+                            <p>Receive guidance and feedback throughout your internship to improve your performance and understanding.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="service-item text-center pt-3 shadow">
+                        <div class="p-4">
+                            <i class="fas fa-certificate fa-3x mb-4" style="color: #9b59b6;"></i>
+                            <h5 class="mb-3">Verified Certificate</h5>
+                            <p>Earn a certificate after completion to showcase your skills and enhance your resume.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+
+    <!-- About Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="img-fluid position-absolute w-100 h-100" src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800" alt="Welcome to LearnDepth"
+                            style="object-fit: cover;">
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <h6 class="section-title bg-white text-start pe-3">About Us</h6>
+                    <h1 class="mb-4" style="color: #9b59b6;">Welcome to LearnDepth</h1>
+                    <p class="mb-4">At LearnDepth, we focus on helping students gain real-world skills through virtual internship programs, expert mentorship, and practical training. Our goal is to bridge the gap between theoretical learning and industry expectations.</p>
+                    <p class="mb-4"> We provide structured internship experiences where students work on real projects, receive guidance from experienced mentors, and develop skills that are directly applicable in the real world.</p>
+                    <div class="row gy-2 gx-4 mb-4">
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right  me-2"></i>Expert Mentorship</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right me-2"></i>Hands-on Training</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right me-2"></i>Real-world Projects</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right me-2"></i>Certifications and Recognition</p>
+                        </div>
+                    </div>
+                    <a class="btn text-light py-3 px-5 mt-2" href="about.html">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+
+
+    <!-- Banner-1 Start -->
+    <div class="container-xxl py-5 pt-5 bg-light">
+        <div class="container">
+            <div class="row g-5 ">
+                <div class="col-lg-6 p-5 wow fadeInUp" data-wow-delay="0.3s">
+
+                    <h1 class="mb-4" style="color: #9b59b6;">Explore Virtual Internship Programs</h1>
+                    <p class="mb-4">Start your journey with LearnDepth by joining hands-on internship programs designed to help you gain real-world experience, build projects, and develop job-ready skills</p>
+
+                    <a class="btn text-light py-3 px-5 mt-2" href="courses.html">Enroll Now</a>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="img-fluid position-absolute w-100 h-100" src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800" alt="Explore Free Courses"
+                            style="object-fit: cover;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Banner-1 End -->
+
+
+
+    <!-- Categories Start -->
+    <div class="container-xxl py-5 category">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center px-3">Categories</h6>
+                <h1 class="mb-5" style="color: #9b59b6;">Explore Intership Domains</h1>
+            </div>
+            <div class="row g-2 m-2">
+                <div class="col-lg-3 col-md-6  text-center">
+                    <div class="content shadow p-3 mb-2 wow fadeInUp" data-wow-delay="0.3s">
+                        <i class="fas fa-brain fa-3x mb-3" style="color: #9b59b6;"></i>
+                        <h5 class="my-2">
+                            <a href="#" class="text-center">AIML</a>
+                        </h5>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6  text-center">
+                    <div class="content shadow p-3 mb-2 wow fadeInUp" data-wow-delay="0.3s">
+                        <i class="fab fa-java fa-3x mb-3" style="color: #9b59b6;"></i>
+                        <h5 class="my-2">
+                            <a href="#" class="text-center">Java Programming</a>
+                        </h5>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6  text-center">
+                    <div class="content shadow p-3 mb-2 wow fadeInUp" data-wow-delay="0.3s">
+                        <i class="fab fa-python fa-3x mb-3" style="color: #9b59b6;"></i>
+                        <h5 class="my-2">
+                            <a href="#" class="text-center">Python Programming</a>
+                        </h5>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6  text-center">
+                    <div class="content shadow p-3 mb-2 wow fadeInUp" data-wow-delay="0.3s">
+                        <i class="fas fa-code fa-3x mb-3" style="color: #9b59b6;"></i>
+                        <h5 class="my-2">
+                            <a href="#" class="text-center">Web Development</a>
+                        </h5>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6  text-center">
+                    <div class="content shadow p-3 mb-2 wow fadeInUp" data-wow-delay="0.3s">
+                        <i class="fas fa-mobile-alt fa-3x mb-3" style="color: #9b59b6;"></i>
+                        <h5 class="my-2">
+                            <a href="#" class="text-center">App Development</a>
+                        </h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Categories End -->
+
+
+   <!-- Courses Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center px-3">Internship programs</h6>
+                <h1 class="mb-5" style="color: #9b59b6;">Explore our Internship programs</h1>
+            </div>
+            <div class="row g-4 py-2">
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="course-item shadow">
+                        <div class="position-relative overflow-hidden text-light image">
+                            <img class="img-fluid" src="img/course-18.jpg" alt="">
+                        </div>
+                        <div class="p-2 pb-0">
+                            <h5 class="mb-1">AIML (AI & Machine Learning)</h5>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <small class=" text-primary py-2 px-2 fw-bold fs-6"><a href="https://forms.gle/bykwq3cLY7xmxSWr7" target="_blank">Register Now </a><i class="fa fa-chevron-right me-2 fs-10"></i></small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="course-item shadow">
+                        <div class="position-relative overflow-hidden text-light image">
+                            <img class="img-fluid" src="img/course-11.jpg" alt="">
+                        </div>
+                        <div class="p-2 pb-0">
+                            <h5 class="mb-1">Java Programming</h5>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <small class=" text-primary py-2 px-2 fw-bold fs-6"><a href="https://forms.gle/bykwq3cLY7xmxSWr7" target="_blank">Register Now </a><i class="fa fa-chevron-right me-2 fs-10"></i></small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="course-item shadow">
+                        <div class="position-relative overflow-hidden text-light image">
+                            <img class="img-fluid" src="img/course-4.jpg" alt="">
+                        </div>
+                        <div class="p-2 pb-0">
+                            <h5 class="mb-1">Python Programming</h5>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <small class=" text-primary py-2 px-2 fw-bold fs-6"><a href="https://forms.gle/bykwq3cLY7xmxSWr7" target="_blank">Register Now </a><i class="fa fa-chevron-right me-2 fs-10"></i></small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="course-item shadow">
+                        <div class="position-relative overflow-hidden text-light image">
+                            <img class="img-fluid" src="img/course-13.jpg" alt="">
+                        </div>
+                        <div class="p-2 pb-0">
+                            <h5 class="mb-1">Web Development</h5>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <small class=" text-primary py-2 px-2 fw-bold fs-6"><a href="https://forms.gle/bykwq3cLY7xmxSWr7" target="_blank">Register Now </a><i class="fa fa-chevron-right me-2 fs-10"></i></small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="course-item shadow">
+                        <div class="position-relative overflow-hidden text-light image">
+                            <img class="img-fluid" src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800" alt="">
+                        </div>
+                        <div class="p-2 pb-0">
+                            <h5 class="mb-1">App Development</h5>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <small class=" text-primary py-2 px-2 fw-bold fs-6"><a href="https://forms.gle/bykwq3cLY7xmxSWr7" target="_blank">Register Now </a><i class="fa fa-chevron-right me-2 fs-10"></i></small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container text-center">
+        <a class="btn text-light py-3 px-5 mt-2 mb-5" href="courses.html">All Internships</a>
+    </div>
+    <!-- Courses End -->
+
+
+
+
+    <!-- FAQ Start  -->
+    <div class="container-xxl py-5 category">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                
+                <h1 class="mb-5">Frequently Asked Questions</h1>
+            </div>
+            <div class="row g-2">
+                <div class="col-12">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                What Is A Virtual Internship?
+                            </button>
+                          </h2>
+                          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                
+        A virtual internship is a remote internship where you learn, work on
+        projects, and attend training sessions online from anywhere.
+      
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                               
+        Who Can Apply For This Internship?
+        
+                            </button>
+                          </h2>
+                          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Students, freshers, job seekers, and anyone interested in learning new skills can apply. No prior experience is mandatory.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                 Is This Internship Free Or Paid?
+                            </button>
+                          </h2>
+                          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                
+        We offer both free and paid internship programs. Details will be
+        shared during onboarding after shortlisting.
+      
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                 Will Training Be Provided During The Internship?
+                              </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                Yes, structured training sessions along with real-world project work are included in the internship program.       
+                                </div>
+                            </div>
+                          </div>
+                           <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                 How Do I Access The LMS Portal?
+                              </button>
+                            </h2>
+                            <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">LMS login credentials will be shared via email or WhatsApp after successful enrollment.
+                                </div>
+                            </div>
+                          </div>
+
+                           <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                How Will Projects And Tasks Be Submitted?
+                              </button>
+                            </h2>
+                            <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">All assignments and projects must be submitted through the LMS portal within the given deadlines.
+                                </div>
+                            </div>
+                          </div>
+
+                          <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                What If I Face Any Technical Or Learning Issues?
+                              </button>
+                            </h2>
+                            <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">You can reach out to our support team or mentors anytime through WhatsApp, email, or the LMS support section.
+                                </div>
+                            </div>
+                          </div>
+
+                          <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                Will I Receive An Internship Certificate?
+                              </button>
+                            </h2>
+                            <div id="collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">Yes, you will receive an Internship & Training Certificate after successful completion of tasks and final project evaluation.
+                                </div>
+                            </div>
+                          </div>
+
+
+                          <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                                Are Live Classes Mandatory?
+                              </button>
+                            </h2>
+                            <div id="collapseNine" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                              <div class="accordion-body">
+                              
+        Live classes are recommended for better understanding, but recorded
+        sessions will also be available if you miss any class.
+      
+
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FAQ End  -->
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-4 col-md-6">
+                    <h4 class="text-white mb-3">Quick Link</h4>
+                    <p><a class="text-light" href="about.html">About Us</a></p>
+                    <p><a class="text-light" href="contact.html">Contact Us</a></p>
+                    <p><a class="text-light" href="">Privacy Policy</a></p>
+                    <p><a class="text-light" href="">Terms & Condition</a></p>
+                    <p><a class="text-light" href="">FAQs & Help</a></p>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h4 class="text-white mb-3">Contact</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Mahadeshwara badavane 8th cross Mysore - 570002</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+91 99808 55683</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>learndepthacademy@gmail.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <h4 class="text-white mb-3">Subscribe to our Newsletter</h4>
+                    <p>Subscribe now and join our growing community of learners committed to lifelong education! </p>
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <form action="#">
+                            <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="email"
+                                placeholder="Your email" required>
+                            <button type="submit"
+                                class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2"><a
+                                    href="mailto:learndepthacademy@gmail.com">Subscribe</a></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="index.html">LearnDepth</a>, All Right Reserved.
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+    <!-- Chatbot -->
+    <div class="chatbot-container">
+        <button class="chatbot-toggle" onclick="toggleChatbot()">
+            <i class="fas fa-comments"></i>
+        </button>
+        <div class="chatbot-window" id="chatbotWindow">
+            <div class="chatbot-header">
+                <h5>LearnDepth Assistant</h5>
+                <button class="chatbot-close" onclick="toggleChatbot()">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="chatbot-messages" id="chatbotMessages">
+                <div class="chatbot-message bot">
+                    Hello! I'm your LearnDepth assistant. How can I help you today?
+                </div>
+            </div>
+            <div class="chatbot-input-area">
+                <input type="text" class="chatbot-input" id="chatbotInput" placeholder="Type your message...">
+                <button class="chatbot-send" onclick="sendMessage()">
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <script src="js/theme-chatbot.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
